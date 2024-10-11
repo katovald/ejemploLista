@@ -7,7 +7,7 @@ class ProductElement extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(left: 10, right: 10, top: 5),
-      child:Container(
+      child: Container(
         width: double.infinity,
         height: 100,
         child: Card(
@@ -27,11 +27,15 @@ class ProductElement extends StatelessWidget {
               Expanded(
                 flex: 4,
                 child: Text(
-                'nombre',
-                style: TextStyle(fontSize: 15, color: Colors.teal),
+                  'nombre',
+                  style: TextStyle(fontSize: 15, color: Colors.teal),
                   textAlign: TextAlign.right,
-              ),),
-              Icon(Icons.arrow_forward_ios_rounded, color: Colors.teal,),
+                ),
+              ),
+              Icon(
+                Icons.arrow_forward_ios_rounded,
+                color: Colors.teal,
+              ),
             ],
           ),
         ),
