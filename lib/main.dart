@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:new_project/ahorro/presentation/pages/product_details.dart';
+import 'package:new_project/ahorro/presentation/pages/product_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: DetailView(),
+      home: ProductList(),
     );
   }
 }
